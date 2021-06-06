@@ -1,3 +1,3 @@
 module.exports = {
-  publicPath:  'medodsform'
+  publicPath:  '/medodsform/'
 }
