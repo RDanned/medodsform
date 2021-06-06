@@ -10,7 +10,7 @@
       Проверьте форму и отправьте еще раз!
     </form-error>
 
-    <form action="#" @submit.prevent="submit">
+    <form action="#" @submit.prevent="submit" v-if="!isLoading && !isSubmitted">
       <fieldset>
         <legend>Личный данные</legend>
         <form-error
