@@ -16,9 +16,9 @@
   width: 300px;
   height: 300px;
   font-size: 55px;
-  color: greenyellow;
+  color: #28a745;
   border-radius: 50%;
-  border: 2px solid greenyellow;
+  border: 2px solid #28a745;
   margin-left: auto;
   margin-right: auto;
 }

@@ -390,12 +390,11 @@ export default {
       } else {
         this.isLoading = true;
 
-        setTimeout(function() {
+        setTimeout(() => {
           console.log("trrttrttttrrtrtrt");
+          this.isLoading = false;
+          this.isSubmitted = true;
         }, 2000);
-
-        this.isLoading = false;
-        this.isSubmitted = true;
       }
     },
   },
